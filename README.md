@@ -8,17 +8,17 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Guilherme Augusto Martins de Carvalho
+- Matricula: 903025
+- Proposta de projeto escolhida: Temas e Conteúdos Associados (Entidade Principal (Tema): Futebol | Entidade Secundária (Conteúdos/Recursos): Notícias, jogos, tabela de classificação transferências, etc.)
+- Breve descrição sobre seu projeto: Portal de notícias e informações sobre futebol brasileiro e mundial (Futebol News)
 
 
 ## Print do(s) wireframe(s) criado
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Print do wireframe](public/wireframe.png)
 
 
 ## Print da home-page criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Home-Page Futebol News](public/home-page.png)

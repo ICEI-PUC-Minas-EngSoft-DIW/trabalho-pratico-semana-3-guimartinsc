@@ -1,3 +1,180 @@
+/* Elementos estruturais */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    background-color: aquamarine;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+header {
+    background-color: green;
+    height: auto;
+    color: white;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    padding-bottom: 15px;
+}
+
+main {
+    float: left;
+    width: 70%;
+    text-align: center;
+}
+
+aside {
+
+    float: left;
+    width: calc(30% - 21px);
+    text-align: center;
+    padding: 10px;
+    position: static;
+    right: 0;
+}
+
+footer {
+    clear: both;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    position: relative;
+    bottom: 0;
+}
+
+h1 {
+    margin: 0 auto;
+    padding: 5px;
+}
+
+/* Componente Caixa Rodapé */
+.caixa-rodape {
+    margin: 0 auto;
+    padding: 5px;
+    float: right;
+}
+
+.caixa-rodape ul {
+    list-style-type: none;
+}
+
+.caixa-rodape ul li {
+    display: inline-block;
+}
+
+.caixa-rodape ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.caixa-rodape ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.caixa-rodape ul li a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin: 0 auto;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+}
+
+
+/* Componente Caixa Menu Principal */
+.caixa-menuprincipal {
+    margin: 0 auto;
+
+}
+
+.caixa-menuprincipal ul {
+    list-style-type: none;
+}
+
+.caixa-menuprincipal ul li {
+    display: inline-block;
+}
+
+.caixa-menuprincipal ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.caixa-menuprincipal ul li a:hover {
+    text-decoration: underline;
+}
+
+/*Noticias */
+
+.caixa-post {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin: 10px;
+    border: solid 2px green;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+section article img {
+    display: block;
+    width: 100%;
+}
+
+.em-alta {
+    border-radius: 15px;
+    background-color: rgba(0, 128, 0, 0.144);
+    margin: 25px;
+    padding-bottom: 20px;
+
+}
+
+.recentes {
+    border-radius: 15px;
+    background-color: rgba(0, 128, 0, 0.144);
+    margin: 25px;
+    padding-bottom: 20px;
+}
+
+/* Barra Lateral */
+
+.proximos-jogos {
+    background-color: rgba(0, 128, 0, 0.144);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.transferencias {
+    background-color: rgba(0, 128, 0, 0.144);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.assinar {
+    background-color: rgba(0, 128, 0, 0.144);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.caixa-jogo {
+    margin: 10px;
+}
+
+.caixa-transferencia {
+    margin: 10px;
+}
+
+.campeonato {
+    font-size: small;
 }
